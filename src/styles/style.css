@@ -282,7 +282,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*-- 
     Scroll Up 
 -----------------------------------------*/
-#scrollUp {
+#scrollUpButton {
   width: 40px;
   height: 40px;
   background-color: #29B9F2;
@@ -292,12 +292,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: center;
   overflow: hidden;
 }
-#scrollUp i {
+#scrollUpButton i {
   display: block;
   line-height: 40px;
   font-size: 24px;
 }
-#scrollUp:hover i {
+#scrollUpButton:hover i {
   animation-name: fadeInUp;
   animation-duration: 1s;
   animation-fill-mode: both;
