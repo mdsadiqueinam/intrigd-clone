@@ -9,7 +9,7 @@ export default function ScrollToTopButton() {
 
   return (
     <div
-      id="scrollUp"
+      id="scrollToTopButton"
       style={{ position: "fixed", zIndex: "2147483647", display: "none", cursor: "pointer" }}
       onClick={scrollToTop}
     >

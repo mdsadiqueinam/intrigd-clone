@@ -7,10 +7,10 @@ export default function Header() {
     window.onscroll = () => {
       if (window.scrollY > 299) {
         document.querySelector("#header").classList.add("is-sticky");
-        document.getElementById("scrollUp").style.display = "block";
+        document.getElementById("scrollToTopButton").style.display = "block";
       } else {
         document.querySelector("#header").classList.remove("is-sticky");
-        document.getElementById("scrollUp").style.display = "none";
+        document.getElementById("scrollToTopButton").style.display = "none";
       }
     }
   },[]);
